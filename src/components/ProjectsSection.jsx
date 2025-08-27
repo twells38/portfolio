@@ -5,7 +5,7 @@ const projects = [{
     title: "FindMyPaws",
     description: "A RESTful Web Application using Java and JavaScript to provide a simple user experience for reporting lost and found pets. It provided authentication and user credentials to ensure a secure user experince. It provided basic features based on CRUD operations.",
     image: import.meta.env.BASE_URL+"/projects/pet.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "BootStrap", "Java", "Spring Boot", "Spring ,Fetch API, Initializr", "PostgreSQL", "Supabase"],
+    tags: ["HTML", "CSS", "JavaScript", "BootStrap", "Java", "Spring Boot", "Spring Initializr" ,"Fetch API", "PostgreSQL", "Supabase"],
     demoUrl: "https://www.youtube.com/watch?v=mCkWwyyzmBY&t=7s",
     githubUrl: "https://github.com/twells38/Capstone-Project2"
 },
@@ -47,7 +47,7 @@ export const ProjectsSection = () => {
                                 <img src={ project.image } alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                             </div>
                             <div className="p-6">
-                                <div className="flex flex-wrap gap-2 mb-3">ß
+                                <div className="flex flex-wrap gap-2 mb-3">
                                     {project.tags.map((tag) => (
                                         <span
                                             className="px-2 py-1 text-xs text-blue-500 font-medium rounded-full bg-primary/20 text-secondary-foreground ">

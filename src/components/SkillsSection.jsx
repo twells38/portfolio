@@ -11,7 +11,7 @@ const skills = [
         //backend
         {name: "Java", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-java-48.png"},
         {name: "Spring Boot", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-spring-boot-logo-48.png"},
-        {name: "Node.js", category: "backend", icon:"import.meta.env.BASE_URL+/projects/icons8-node-js-48.png"},
+        {name: "Node.js", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-node-js-48.png"},
         {name: "Express.js", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-express-js-50.png"},
         {name: "MongoDB", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-mongodb-48.png"},
         {name: "PostgreSQL", category: "backend", icon:import.meta.env.BASE_URL+"/projects/icons8-postgresql-48.png"},
